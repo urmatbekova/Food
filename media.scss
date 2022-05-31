@@ -1,0 +1,53 @@
+@media (max-width: 1200px) {
+  .container {
+    width: 90%;
+    border: 1px solid black;
+  }
+}
+
+@media (max-width: 1024px) {
+  .search input {
+    width: 97.8%;
+  }
+
+  .hero-general {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 992px) {
+  .footer-block {
+    right: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .search input {
+    width: 96%;
+  }
+  .hero-title {
+    text-align: center;
+  }
+  .selector {
+    flex-direction: column;
+  }
+  .selector-icons {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 414px) {
+  .search input {
+    width: 94.7%;
+  }
+  .footer {
+    FLEX-DIRECTION: column;
+  }
+  .footer h1 {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 375px) {
+
+}
