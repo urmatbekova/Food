@@ -14,7 +14,7 @@ a {
 }
 
 #header {
-  padding: 20px 0;
+  padding: 15px 0;
   position: fixed;
   z-index: 10;
   width: 100%;
@@ -39,8 +39,8 @@ a {
 }
 #header .header-logo img {
   position: absolute;
-  top: 10px;
-  left: 200px;
+  top: 0;
+  left: 185px;
 }
 #header .header a {
   font-family: "Forum", sans-serif;
@@ -103,14 +103,14 @@ a {
 #hero .hero-btn button:hover {
   transform: scale(1.1);
 }
-#hero .hero-btn h1 {
+#hero .hero-btn h6 {
   font-family: "Forum", sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: #FFFFFF;
   padding-left: 20px;
 }
-#hero .hero-btn h1 span {
+#hero .hero-btn h6 span {
   color: #EBB75A;
 }
 #hero .hero-icon {
@@ -121,6 +121,9 @@ a {
   display: flex;
   align-items: center;
   padding-right: 100px;
+}
+#hero .hero-icon div img {
+  padding-right: 1px;
 }
 #hero .hero-icon div h1 {
   font-family: "Forum", sans-serif;
@@ -504,12 +507,16 @@ a {
 #taxi .taxi .tax2 {
   position: absolute;
   top: 220rem;
-  right: -50px;
+  right: 0;
+}
+#taxi .taxi .tax3 {
+  position: absolute;
+  left: 0;
 }
 
 #photo {
   background: #2b2b2b;
-  padding-top: 110px;
+  padding-top: 355px;
 }
 #photo .photo h1 {
   font-family: "Forum", sans-serif;
@@ -528,6 +535,9 @@ a {
 }
 #photo .photo div img {
   padding: 20px;
+}
+#photo .photo div .photo2 {
+  width: 565px;
 }
 #photo .photo .photo00 {
   position: absolute;
@@ -620,7 +630,7 @@ a {
   font-family: "Forum", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  color: gray;
+  color: white;
   margin-bottom: 40px;
 }
 #help .help-block span {
@@ -691,6 +701,9 @@ a {
   font-size: 18px;
   color: #FFFFFF;
   margin-bottom: 30px;
+}
+#contact .contact .contact-img {
+  padding: 1px;
 }
 #contact .contact .carta {
   width: 381px;
